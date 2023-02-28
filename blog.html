@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <title>Blog</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .all
+    {
+      grid-area: content;
+      background-image: url(bk.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 18px 1fr 18px 8px;
+      height: 100vh;
+      width: 105vw;
+      grid-template-areas:
+              "menu menu menu"
+              "content content1 content2"
+              "footer  footer  footer"
+              "footer1 footer1 footer1";
+    }
+    .head
+    {
+      grid-area: menu;
+    }
+    .head nav{
+    background-color: black;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+   }
+   .head nav a{
+    text-decoration: none;
+    margin:auto 10px;
+    color: white;
+   }
+   nav a:hover
+   {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+   }
+   .logo
+   {
+    color: white;
+    margin-right: 450px;
+    font-size: 15px;
+   }
+    
+    .c1
+    {
+      grid-area: content;
+    }
+    .c2
+    {
+      grid-area: content1;
+      
+    }
+    .c3
+    {
+      grid-area: content2;
+      
+    }
+    .foot
+    {
+      grid-area: footer;
+    }
+    .foot1
+    {
+      grid-area: footer1;
+    }
+    .foot
+    {
+      grid-area: footer;
+      background-color: black;
+    display: flex;
+    justify-content: space-around;
+    }
+    .foot a
+   {
+    text-decoration: none;
+    margin:auto 10px;
+    color: white;
+   }
+    .foot1
+    {
+      grid-area: footer1;
+      font-size: 7px;
+    font-style: italic;
+    text-align: center;
+    background-color: black;
+    color: white;
+    }
+    .c1 img
+    {
+      height: 100px;
+      width: 220px;
+      margin: 10px 25px;
+    }
+    .c1 h
+    {
+      color: #F99417;
+      font-size: 30px;
+      font-style: italic;
+      margin-left: 85px;
+    }
+    .c1 p{
+      color: white;
+      font-size: 11px;
+      margin-top: 10px;
+      margin-right: 2px;
+    }
+    .c2 img
+    {
+      height: 100px;
+      width: 220px;
+      margin: 10px 25px;
+    }
+    .c2 h
+    {
+      color: #F99417;
+      font-size: 30px;
+      font-style: italic;
+      margin-left: 85px;
+    }
+    .c2 p{
+      color: white;
+      font-size: 12px;
+      margin-top: 10px;
+      margin-right: 2px;
+    }
+    .c3 img
+    {
+      height: 100px;
+      width: 220px;
+      margin: 10px 25px;
+    }
+    .c3 h
+    {
+      color: #F99417;
+      font-size: 30px;
+      font-style: italic;
+      margin-left: 85px;
+    }
+    .c3 p{
+      color: white;
+      font-size: 12px;
+      margin-top: 10px;
+      margin-right: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="all">
+    <div class="head">
+      <nav>
+        <div class="logo">GIANT GYM</div>
+        <a href="Index.html">Home</a>
+          <a href="nutrition.html">Nutrition</a>
+          <a href="blog.html">Blog</a>
+          <a href="Link.html">Join</a>
+          <a href="Logout">Logout</a>
+       
+      </nav>
+    </div>
+    
+    <div class="c1">
+         <img src="grth.jpeg" alt="pic9">
+        <h>Leadership</h>
+        <p> In order to support fitness franchises as they scale internationally, we’ve invested a lot in our product to make it a robust solution for their unique needs. Our recent partnership with ABC Fitness Solutions further bolsters our offering, enabling us to bring even more powerful insights and industry expertise to the table.when it comes to things like podcasting. Renowned marketing expert Eric Siu recently posted onVideo has increasingly become a “need to have” when it comes to marketing. The problem is that a lot of companies see it as a box-ticking exercise rather than a strategy that needs proper thought and investment.  </p>
+    </div>
+    <div class="c2">
+      <img src="w1.jpeg" alt="pic9">
+      <h>Growth</h>
+        <p> 2022 was the year short form video content really took off and fitness studio owners need to make sure they have a foolproof short form video strategy so they can reach a bigger audience than their competitors. Now we’ve looked at the ins and outs of short form video content, let’s look at the technical elements of what makes great short form video.Other prominent experts agree with the clear effectiveness of short form video, especially  Linkedin about this very topic. In a post you can find here, Eric explains how short form video will be crucial for growing your businesses podcast in 2023 and beyond.   </p>
+    </div>
+    <div class="c3">
+      <img src="exp.jpeg" alt="pic9">
+      <h>Experiance</h>
+      <p>Some cities like San Diego and New York have experienced a 13+ point drop in gym membership numbers, making it clear not everyone has rushed back to working out in a gym or studio right away. A number of factors could be influencing this, one of which could be the diversity of digital options that now exist that allow the consumer to workout and hit their goals outside the four walls of their local studio. 
+
+        On the other hand, big players in the digital space such as Peloton, who experienced huge growth during Covid as people turned their living rooms into temporary fitness studios, are now facing a slow down and have had to make massive cuts to survive.   </p>
+    </div>
+    <div class="foot">
+      <nav>
+        <a href="instagram">Instagram</a>
+        <a href="facebook">Facebook</a>
+        <a href="Twitter">Twitter</a>
+  </nav>
+    </div>
+    <div class="foot1">
+      © 2023 Greatist a Red Ventures Company. Our content does not constitute a medical consultation. See a certified medical professional for diagnosis.
+    </div>
+  </div>
+</body>
+</html>

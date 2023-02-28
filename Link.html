@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <title>Gym sign up</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .title nav{
+    background-color: black;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+   }
+   .title nav a{
+    text-decoration: none;
+    margin:auto 10px;
+    color: white;
+   }
+   nav a:hover
+   {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+   }
+   .logo
+   {
+    color: white;
+    margin-right: 400px;
+    font-size: 15px;
+   }
+    
+    fieldset
+    {
+      border: 2px solid black;
+      background-color: #484848;
+      color: black;
+      width: 400px;
+      height: 350px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0px;
+      margin-top: 5px;
+    }
+    .first
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      }
+    .first input
+    {
+      width: 300px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #F99417;
+      outline: 1px solid #F99417;
+      border-radius: 5px;
+    }
+    .first select{
+      width: 310px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      height: 25px;
+      border: 1px solid #F99417;
+      outline: 1px solid #F99417;
+      border-radius: 5px;
+    }
+    #f1
+    {
+      text-align: center;
+      margin-top: 10px;
+      color: white;
+    }
+   .f2
+   {
+    text-align: center;
+    margin-top: 10px;
+   }
+   .f2 input:hover{
+    border: 1px solid black;
+   }
+   .down
+   {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+   }
+   .down a
+   {
+    text-decoration: none;
+    margin:auto 10px;
+    color: white;
+   }
+    .foot
+    {
+      font-size: 7px;
+      text-align: center;
+      color: white;
+      font-style: italic;
+      background-color: black;
+    }
+    .all
+    {
+      background-image: url(bk.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .first label
+    {
+      color: #F99417;
+    }
+
+
+
+  </style>
+</head>
+<body>
+  <div class="all">
+    <div class="title">
+      <nav>
+       <div class="logo">GIANT GYM</div>
+       <a href="Index.html">Home</a>
+         <a href="nutrition.html">Nutrition</a>
+         <a href="blog.html">Blog</a>
+         <a href="Link.html">Join</a>
+         <a href="www.google.com">Logout</a>
+      
+     </nav>
+   </div>
+  <fieldset>
+  <form>
+    <div class="first">
+    <label for="name">Name</label>
+    <input type="text" placeholder="Enter your name" id="name">
+     <label for="email">Email</label>
+    <input type="email" placeholder="Enter your mail" id="email" required>
+     <label for="password">Password</label>
+    <input type="password" placeholder="Enter your password" id="password" required>
+     <label for="conform">Conform Password</label>
+    <input type="password" placeholder="Confirm Your Password" id="conform">
+     <label for="gender">Select Your Gender</label> 
+    <select name="gender" id="gender">
+    <option value="Male" >Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+    </select>
+    </div>
+    <div id="f1">
+    <input type="checkbox" name="check" id="check" required>
+    <label for="check">I accept that all the information above filled correctly</label>
+    </div>
+    <div class="f2">
+    <input type="submit" name="Register" id="Register" required>
+    </div>
+  </form>
+  </fieldset>
+  </div>
+  <div class="down">
+    <nav>
+           <a href="instagram">Instagram</a>
+           <a href="facebook">Facebook</a>
+           <a href="Twitter">Twitter</a>
+    </nav>
+   </div>
+  <div class="foot">
+    © 2023 Greatist a Red Ventures Company. Our content does not constitute a medical consultation. See a certified medical professional for diagnosis. 
+  </div>
+  </div>
+</body>
+</html>

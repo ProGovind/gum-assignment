@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html >
+<head>
+ 
+  <title>Nutrition</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .all
+    {
+      display: grid;
+      grid-template-rows: 18px 1fr 100px 18px 8px;
+      height: 100vh;
+      grid-template-areas:
+              "menu"
+              "content"
+              "picture"
+              "footer"
+              "footer1";
+    }
+    .top
+    {
+      grid-area: menu;
+    }
+  
+   .top nav{
+    background-color: black;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+   }
+   .top nav a{
+    text-decoration: none;
+    margin:auto 10px;
+    color: white;
+   }
+   nav a:hover
+   {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+   }
+   .logo
+   {
+    color: white;
+    margin-right: 400px;
+    font-size: 15px;
+   }
+    .c1
+    {
+      grid-area: content;
+      background-image: url(bk.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .c1 h1{
+      text-align: center;
+      font-style: italic;
+      color: white;
+    }
+    .c1 p{
+      color: white;
+      margin-bottom:  4px;
+      margin-left: 4px;
+    }
+    .pic
+    {
+      grid-area: picture;
+      background-color:  #F99417;
+    }
+    .pic img
+    {
+      height: 100px;
+      width: 250px;
+      margin-left: 10px;
+    }
+    .foot
+    {
+      grid-area: footer;
+      background-color: black;
+    display: flex;
+    justify-content: space-around;
+    }
+    .foot a
+   {
+    text-decoration: none;
+    margin:auto 10px;
+    color: white;
+   }
+    .foot1
+    {
+      grid-area: footer1;
+      font-size: 7px;
+    font-style: italic;
+    text-align: center;
+    background-color: black;
+    color: white;
+    }
+    .c1 img{
+      height: 100px;
+      width: 250px;
+      margin: 4px 4px;
+      
+    }
+    .c2 img{
+      height: 100px;
+      width: 250px;
+      margin: 4px 4px;
+      
+     
+    }
+    .c3 img{
+      height: 100px;
+      width: 250px;
+      margin: 4px 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="all">
+  <div class="top">
+    <nav>
+      <div class="logo">GIANT GYM</div>
+      <a href="Index.html">Home</a>
+        <a href="nutrition.html">Nutrition</a>
+        <a href="blog.html">Blog</a>
+        <a href="Link.html">Join</a>
+        <a href="Logout">Logout</a>
+     
+    </nav>
+  </div>
+  <div class="c1">
+     <h1>Nutrition</h1>
+     <p>You might be surprised how many active adults overlook the importance of nutrition basics — and then run short on key nutrients.
+
+      Not getting enough vitamins, minerals and other nutrients can compromise your health and your performance.
+      
+      Yet fueling up for activity is as easy as following the well-established rules of a healthy diet: Eat plenty of fruits and vegetables, consume lean proteins, eat healthy fats, get your whole-grain carbohydrates, and drink plenty of fluids, especially water.</p><br>
+      <p>Protein is important because it provides the amino acids your body needs to build and repair muscle.
+
+        Most research suggests very active people should eat 1.2 to 2 grams of protein per kilogram of body weight. That means a 150-pound person should eat 82 to 136 grams each day. People who aren't active should eat less protein. Aim for .8 grams per kilogram of body weight each day.
+        
+        Good sources of protein are poultry (25 grams in 3 ounces) and fish (20 grams in 3 ounces). Those who prefer to avoid meat can try soybeans (20 grams per cup) and legumes like beans, peanuts and chickpeas (about 15 grams per cup). Eggs, Greek yogurt, cheese and tofu are good sources, too.</p>
+  </div>
+  <div class="pic">
+    <img src="n1.jpeg" alt="pic">
+    <img src="n2.jpeg" alt="pic2">
+    <img src="n3.jpeg" alt="pic3">
+  </div>
+  <div class="foot">
+    <nav>
+      <a href="instagram">Instagram</a>
+      <a href="facebook">Facebook</a>
+      <a href="Twitter">Twitter</a>
+</nav>
+  </div>
+  <div class="foot1">
+    © 2023 Greatist a Red Ventures Company. Our content does not constitute a medical consultation. See a certified medical professional for diagnosis.
+  </div>
+</div>
+</body>
+</html>

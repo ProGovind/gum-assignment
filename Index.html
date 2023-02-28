@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Homepage</title>
+  <style>
+   *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+   .bind
+   {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 20px 160px 1fr 18px 8px;
+    grid-template-areas: 
+            "menu"
+            "content"
+            "content1"
+            "footer"
+            "footer2";
+   }
+   .title
+   {
+    grid-area: menu;
+    
+   }
+   .title nav{
+    background-color: black;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+   }
+   .title nav a{
+    text-decoration: none;
+    margin:auto 10px;
+    color: white;
+   }
+   nav a:hover
+   {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+   }
+   .logo
+   {
+    color: white;
+    margin-right: 400px;
+    font-size: 15px;
+   }
+   .content
+   {
+    grid-area: content;
+   }
+   .content2
+   {
+    grid-area: content1;
+    background-color: #F99417;
+   }
+   .down
+   {
+    grid-area: footer;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+   }
+   .content
+   {
+    font-style: italic;
+    margin-top: 20px;
+    font-size: small;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+   .content h1
+   {
+    text-align: center;
+    margin-bottom: 5px;
+   }
+   .content2 img
+   {
+    width: 250px;
+    height: 150px;
+    margin-left: 8px;
+    margin-top: 24px;
+    
+   }
+   .down a
+   {
+    text-decoration: none;
+    margin:auto 10px;
+    color: white;
+   }
+   .down2
+   {
+    grid-area: footer2;
+    font-size: 7px;
+    font-style: italic;
+    text-align: center;
+    background-color: black;
+    color: white;
+   }
+
+  </style>
+</head>
+<body>
+  <div class="bind">
+      <div class="title">
+         <nav>
+          <div class="logo">GIANT GYM</div>
+          <a href="Index.html">Home</a>
+            <a href="nutrition.html">Nutrition</a>
+            <a href="blog.html">Blog</a>
+            <a href="Link.html">Join</a>
+            <a href="Logout">Logout</a>
+         
+        </nav>
+      </div>
+     <div class="content">
+         <h1>About-us</h1>
+      <p>GIANT GYM Known for the unrivaled success of providing state-of-the-art equipment and fitness knowledge with a globally proven fitness training module and with certified trainers and nutritional counseling we have had a comprehensive approach to the overall health and wellbeing of the members. At Giant’s Gym, it’s not only about working out but having a healthy lifestyle<br><br>
+      We feel proud and glad to say that with the support of Giant’s Gym International, Our Members, Employees, Vendor Partners; Franchisee Partners the brand has grown leaps and bounds and has been able to contribute to the betterment of the nation. We are working towards #MakingIndiaFit and we are hopeful of spreading fitness awareness to as many people as possible</p>
+     </div>
+     <div class="content2">
+      <img src="g1.jpeg" alt="pic">
+      <img src="g2.jpeg"  alt="pic1">
+      <img src="g3.jpeg" alt="pic2">
+     </div>
+     <div class="down">
+     <nav>
+            <a href="instagram">Instagram</a>
+            <a href="facebook">Facebook</a>
+            <a href="Twitter">Twitter</a>
+     </nav>
+    </div>
+  <div class="down2">
+    © 2023 Greatist a Red Ventures Company. Our content does not constitute a medical consultation. See a certified medical professional for diagnosis. 
+  </div>
+</div>
+  
+</body>
+</html>
